@@ -115,18 +115,11 @@
                             <div class="inner text-center">
                                 <h1 class="title theme-gradient">NFT</h1>
                                 
-                                <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-                                <model-viewer src="https://github.com/ProjectLookingGlass/projectlookingglass/blob/main/assets/nft/Elf.glb" camera-controls auto-rotate>
-                                    <div class="progress-bar hide" slot="progress-bar">
-                                        <div class="update-bar"></div>
-                                    </div>
-                                    <button slot="ar-button" id="ar-button">
-                                        View in your space
-                                    </button>
-                                    <div id="ar-prompt">
-                                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-                                    </div>
-                                </model-viewer>
+                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+                          <model-viewer id="viewer" data-js-focus-visible
+                             src="https://cdn.glitch.com/ae8542a3-545e-4779-ae13-07419e88267e%2FFlightHelmet.glb"
+                             autoplay camera-controls field-of-view="45deg" interaction-prompt="none" ar ar-modes="webxr scene-viewer quick-look">
+                          </model-viewer>
                                 
                                 <p class="description">There are many variations of passages of Lorem Ipsum available
                                     but the majority have suffered alteration.</p>
