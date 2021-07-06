@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="assets/css/vendor/lightbox.css">
     <link rel="stylesheet" href="assets/css/vendor/fontawesome.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- Scripts -->
+     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -127,18 +130,16 @@
                         <div class="im_portfolio">
                             <div class="thumbnail_inner">
                                 <div class="thumbnail"><a href="portfolio-details.html">
-                         
-                        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
                                 
-                         <style>model-viewer { width: 440px; height: 600px; }</style>
-                                
-                          <model-viewer id="viewer" data-js-focus-visible
-                             src="https://projectlookingglass.netlify.app/elf.glb"
-                             autoplay camera-controls auto-rotate field-of-view="45deg" interaction-prompt="none" ar ar-modes="webxr scene-viewer quick-look">
-                          </model-viewer>
-                                 </a></div>
+                         <style>model-viewer { width: 440px; height: 500px; }</style>
+                         <model-viewer id="viewer" data-js-focus-visible
+                         src="https://projectlookingglass.netlify.app/elf.glb"
+                         autoplay camera-controls auto-rotate field-of-view="45deg" interaction-prompt="none" ar ar-modes="webxr scene-viewer quick-look">
+                         </model-viewer>
+                            
+                            </a></div>
                             </div>
-                           
+                          
                              <div class="content">
                                 <div class="inner">
                                     <div class="portfolio_heading">
