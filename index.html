@@ -28,7 +28,7 @@
     <!-- Scripts -->
      <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
      <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
-     <script type="module" src="script.js" defer></script>
+     <script type="module" src="assets/js/script.js" defer></script>
 </head>
 
 <body>
@@ -76,7 +76,9 @@
                 </div>
             </div>
         </header>
+        
         <!-- End header Arae -->
+ 
         <!-- Start Popup Menu Area  -->
         <div class="rn-popup-mobile-menu">
             <div class="inner">
@@ -112,43 +114,6 @@
             </div>
         </div>
         <!-- End Popup Menu Area  -->
-
- <!-- Start Slider Area -->
-        <div class="slider-wrapper">
-            
-      <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .imgbox {
-            display: grid;
-            height: 100%;
-        }
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-         }
-        </style>
-            
-<model-viewer src="https://projectlookingglass.netlify.app/Fox.glb" camera-controls environment-image="pillars_1k.hdr" autoplay auto-rotate shadow-intensity="0" shadow-softness="0">
-      <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-      <div id="ar-prompt">
-          <img src="ar_hand_prompt.png">
-      </div>
-    </model-viewer>  
-
-
-
-            
-        </div>
-<!-- End Slider Area -->
         
         <!-- Start Portfolio Area -->
         <div class="rn-portfolio-area bg_color--10 ptb--120">
