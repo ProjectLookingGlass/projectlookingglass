@@ -113,10 +113,27 @@
 
  <!-- Start Slider Area -->
         <div class="slider-wrapper">
-                <model-viewer id="viewer" data-js-focus-visible
+      <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+            
+                <model-viewer class="center-fit" id="viewer" data-js-focus-visible
                   src="https://projectlookingglass.netlify.app/Fox.glb"
                   autoplay camera-controls field-of-view="45deg" interaction-prompt="none"
                   ar ar-modes="webxr scene-viewer quick-look"></model-viewer>
+            
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
