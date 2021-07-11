@@ -113,12 +113,6 @@
         <!-- NFT Featured -->
                         <div class="thumbnail">
                         <model-viewer id="featurednft" src="https://projectlookingglass.netlify.app/fox/White.glb" camera-controls disable-zoom interaction-prompt="none" autoplay animation-name="Armature|Take 001|BaseLayer" camera-orbit="-35.0deg 95.0deg 5.556m"></model-viewer>
-                        <script>
-                        const models = ['White.glb', 'Classic.glb', 'Gold.glb', 'Silver.glb', 'Black.glb'];
-                        const featurednft = document.querySelector('#featurednft');
-                        let j = 0;
-                        setInterval(() => featurednft.setAttribute('src', `https://projectlookingglass.netlify.app/fox/${models[j++ % 5]}`), 2000);
-                        </script>
                         </div></div>
             
                                <div class="col-lg-6 col-md-6 col-12 mt_sm--30">
